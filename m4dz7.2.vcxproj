@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>M:\Учёба\Dz Netolog C++\Модуль 4\m4dz7.2\m4dz7.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,6 +134,7 @@
     <ClInclude Include="..\..\m4dz5.3\m4dz5.3\RightTriangle.h" />
     <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Square.h" />
     <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Triangle.h" />
+    <ClInclude Include="FigureError.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\m4dz5.3\m4dz5.3\EquilateralTriangle.cpp" />
