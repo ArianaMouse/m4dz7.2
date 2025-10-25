@@ -2,6 +2,16 @@
 
 Quadrilateral::Quadrilateral(double a, double b, double c, double d, double A, double B, double C, double D, const std::string& name)
     : Figure(name), a(a), b(b), c(c), d(d), A(A), B(B), C(C), D(D) {
+
+    double sum_angles = A + B + C + D;
+    if (sum_angles != 360) {
+        throw FigureError("Сумма углов четырехугольника должна быть 360 градусов");
+    }
+    if (a <= 0 || b <= 0 || c <= 0 || d <= 0) {
+        throw FigureError("Стороны четырехугольника должны быть положительными");
+    }
+    std::cout << name << " (стороны " << a << ", " << b << ", " << c << ", " << d
+        << "; углы " << A << ", " << B << ", " << C << ", " << D << ") создан" << std::endl;
 }
 
 double Quadrilateral::getA() const { return a; }

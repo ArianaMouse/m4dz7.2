@@ -124,30 +124,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\EquilateralTriangle.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Figure.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\IsoscelesTriangle.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Parallelogram.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Quadrilateral.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Rectangle.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Rhombus.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\RightTriangle.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Square.h" />
-    <ClInclude Include="..\..\m4dz5.3\m4dz5.3\Triangle.h" />
+    <ClInclude Include="EquilateralTriangle.h" />
+    <ClInclude Include="Figure.h" />
     <ClInclude Include="FigureError.h" />
+    <ClInclude Include="IsoscelesTriangle.h" />
+    <ClInclude Include="Parallelogram.h" />
+    <ClInclude Include="Quadrilateral.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rhombus.h" />
+    <ClInclude Include="RightTriangle.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\EquilateralTriangle.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Figure.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\IsoscelesTriangle.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\main.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Parallelogram.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Quadrilateral.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Rectangle.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Rhombus.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\RightTriangle.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Square.cpp" />
-    <ClCompile Include="..\..\m4dz5.3\m4dz5.3\Triangle.cpp" />
+    <ClCompile Include="EquilateralTriangle.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="IsoscelesTriangle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parallelogram.cpp" />
+    <ClCompile Include="Quadrilateral.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rhombus.cpp" />
+    <ClCompile Include="RightTriangle.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

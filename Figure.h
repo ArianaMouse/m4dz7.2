@@ -2,6 +2,7 @@
 
 #include <iostream> 
 #include <string>
+#include "FigureError.h"
 
 class Figure {
 protected:
@@ -14,3 +15,4 @@ public:
     //Название фигур.
     std::string get_name() const;
 };
+
